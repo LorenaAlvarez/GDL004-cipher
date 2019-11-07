@@ -15,47 +15,38 @@
      
       <h1>CIFRADO CÉSAR</h1>
 
-       <h5>Con el método de cifrado Cesár ¡CONVIÉRTETE EN EL MEJOR DETECTIVE! 
-          Mandando mensajes súper secretos a tus amigos.</h5> 
-          
-          <h4>Sigue las instrucciones ¡Y DIVIÉRTETE!</h4> 
-              
-              <label>Elige la acción</label>
-              <input type="radio" class="boton radio" name="accion" checked="checked"/>
-              <label>Cifrar</label>
-              <input type="radio" class="boton radio" name="accion" />
-              <label>Descifrar</label>
-       
+      <h5>Con el método de cifrado Cesár ¡CONVIÉRTETE EN EL MEJOR DETECTIVE! 
+         Mandando mensajes súper secretos a tus amigos.</h5> 
          
-          <h3>Ingresa tu mensaje a cifrar:</h3>
-          
-          <textarea name="origen" id="origen" cols="30" 
-          rows="5"placeholder="Máximo 180 caracteres." maxlength="100"></textarea>
-          <!--cuadro de texto-->
-  
+         <h4>Sigue las instrucciones ¡Y DIVIÉRTETE!</h4> 
+             
+             <label>Elige la acción:</label>
+             <input type="radio" class="boton radio" name="accion" checked="checked" value="cifrar" />
+             <label>Cifrar</label>
+             <input type="radio" class="boton radio" name="accion" value="descifrar" />
+             <label>Descifrar</label>
+      
+        
+         <h3 id="titulo_origen">Ingresa tu mensaje a cifrar:</h3>
+         
+         <textarea name="origen" id="origen" cols="30" 
+         rows="5"placeholder="Máximo 180 caracteres." maxlength="100"></textarea> 
 
-          <h3 id="tituloNumeroDesplazamientos">Número de desplazamientos:</h3>
-          <input type="number" name="numeroDesplazamientos" id="numeroDesplazamientos" value="1">
-          <button id="generar" class="button" >Generar</button>
+         <h3 id="tituloNumeroDesplazamientos">Número de desplazamientos:</h3>
+         <input type="number" name="numeroDesplazamientos" id="numeroDesplazamientos" value="1">
+         <button id="generar" class="button" >Generar</button>
 
-          <h3>Tu mensaje cifrado:</h3>
-            <textarea name="destino" id="destino" cols="30" 
-            rows="5"></textarea>  <br><br>
-          
-          <button id="borrar" class="button" >Borrar</button>
-          <button id="copiar" class="button" >Copiar</button>
-
-
-      </div>
+         <h3 id="titulo_destino">Tu mensaje cifrado:</h3>
+           <textarea name="destino" id="destino" cols="30" 
+           rows="5"></textarea>  <br><br>
+         
+         <button id="borrar" class="button" >Borrar</button>
+         <button id="copiar" class="button" >Copiar</button>
 
 
+     </div>
 
-    <!-- descifrar -->
-
-    <div>
-
-    </div>
-    <script src="src/cipher.js"></script>
-    <script src="src/index.js"></script>
-  </body>
+   <script src="src/cipher.js"></script>
+   <script src="src/index.js"></script>
+ </body>
 </html>

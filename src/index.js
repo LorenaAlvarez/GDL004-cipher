@@ -1,21 +1,44 @@
-//alert();
+// modificar el radio para que cambie de "cifrar" a "descifrar"
+// añadir listener a radio buttons
+let radios = document.getElementsByName('accion') 
+
+// Por cada radio button se añade un eventListener
+for (let i = 0; i < radios.length; i++) {
+  radios[i].addEventListener('change', function() { 
+    if (radios[i].value === 'cifrar') { // Si el radio seleccionado es igual a cifrar
+      // Se cambia el texto de los titulos de las instrucciones
+      document.getElementById('titulo_origen').innerText = 'Ingresa tu mensaje a cifrar:'
+      document.getElementById('titulo_destino').innerText = 'Tu mensaje cifrado:'
+    } else { // Si el radio seleccionado es igual a descifrar
+      // Se cambia el texto de los titulos de las instrucciones
+      document.getElementById('titulo_origen').innerText = 'Ingresa tu mensaje a descifrar:'
+      document.getElementById('titulo_destino').innerText = 'Tu mensaje descifrado:'
+    }
+  })
+}
 
 const botonGenerar = document.getElementById('generar')
-    generar.addEventListener('click', function() {
-      // Se obtiene el valor del elemento con el textarea que tiene el id ="origen"
-    let textoOrigen = document.getElementById('origen').value
-      // Se obtiene el valor de numero de desplazamientos, con el elemento que tiene el id "numeroDesplazamientos"
-    let numeroDesplazamientos = document.getElementById('numeroDesplazamientos').value
-       // convertir de string a numero
-    numeroDesplazamientos = parseInt(numeroDesplazamientos)
-
-      // obtener en variable resultado lo que retorne la llamada a la función decode del objeto cipher. A esta función se le pasa como parametros los dos valores, del text area origen, y del numero desplazamientos
-    let resultado = cipher.encode(numeroDesplazamientos, textoOrigen)
-
-      // Obtener al elemento que tiene el id destino
-    let destino = document.getElementById('destino')
+generar.addEventListener('click', function() {
   
-      // Agregar el resultado al textarea destino asignandole su valor
-    destino.value = resultado;
+let textoOrigen = document.getElementById('origen').value
+let numeroDesplazamientos = document.getElementById('numeroDesplazamientos').value
+  // cambiar de string a int (números)
+numeroDesplazamientos = parseInt(numeroDesplazamientos)
+
+let resultado = '' // variable que contendrá el resultado
+if (document.querySelector('input[name="accion"]:checked').value === 'cifrar') { 
+  resultado = cipher.encode(numeroDesplazamientos, textoOrigen)
+} else { 
+  resultado = cipher.decode(numeroDesplazamientos, textoOrigen)
+}
+  document.getElementById('destino').value = resultado;
 })
 
+document.getElementById('borrar').addEventListener('click', function() {
+  document.getElementById('origen').value = ''
+  document.getElementById('destino').value = ''
+})
+
+document.getElementById('copiar').addEventListener('click', function() {
+  document.execCommand('copy', false, document.getElementById('destino').select());
+})
