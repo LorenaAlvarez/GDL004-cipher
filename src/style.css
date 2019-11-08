@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    font-style: bold;
 }
 
 .interfaz {
@@ -45,7 +46,6 @@
 
 label {
     font-family: Roboto;
-    font-style: normal;
     font-size: 11px;
 }
 
@@ -67,4 +67,21 @@ label {
 
 #tituloNumeroDesplazamientos {
   display: inline-block;
+}
+
+.circulo {
+    width: 18px;
+    height:18px;
+    background-color:#FFAA26;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+   
+}
+
+.circulo circuloEspacio {
+    display: inline;
 }

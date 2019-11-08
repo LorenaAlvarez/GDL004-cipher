@@ -32,7 +32,7 @@ describe('cipher', () => {
     // it('debería retornar " !@" para " !@"', () => {
     //   expect(cipher.encode(33, ' !@')).toBe(' !@');
     // });
-  })
+  });
   describe('cipher.decode', () => {
     it('debería ser una función', () => {
       expect(typeof cipher.decode).toBe('function');
