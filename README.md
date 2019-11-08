@@ -24,10 +24,10 @@ LA app recibe mensajes cifrados y descifrados, tiene un botón para elegir el nu
 
 ## 3. Prototipo papel:
 
-![prototipo-papel](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![prototipo-papel](https://raw.githubusercontent.com/LorenaAlvarez/GDL004-cipher/master/src/imgs/prototipo-papel.jpeg)
 
 Resumen feedback: La aplicación al principio no contaba con un botón o apartado para que el usuario pudiera descifrar, así que se tuvo que modificar el diseño para agregarlo.
 
 ### Prototipo final:
 
-![prototipo-final](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![prototipo-final](https://raw.githubusercontent.com/LorenaAlvarez/GDL004-cipher/master/src/imgs/prototipo-final.jpeg)
