@@ -80,6 +80,6 @@ La aplicación al principio no contaba con un botón o apartado para que el usua
 
 ## 4. Prototipo Final 📲
 
-![prototipo-final]()
+![prototipo-final](https://github.com/LorenaAlvarez/GDL004-cipher/blob/master/src/imgs/prototipo-final.PNG?raw=true)
 
-![prototipo-final]()
+![prototipo-final](https://github.com/LorenaAlvarez/GDL004-cipher/blob/master/src/imgs/prototipo-final-2.PNG?raw=true)
