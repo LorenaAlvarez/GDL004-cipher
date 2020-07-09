@@ -5,10 +5,10 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Investigación UX](#3-investigación-ux)
-* [4. Prototipo Final](#4-prototipo-final)
+* [1. Preámbulo](##1-preámbulo)
+* [2. Resumen del proyecto](##2-resumen-del-proyecto)
+* [3. Investigación UX](##3-investigación-ux)
+* [4. Prototipo Final](##4-prototipo-final)
 
 ***
 
@@ -18,7 +18,7 @@
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
 es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
+(desplazamientos) más adelante en el mismo alfabeto.
 
 Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
@@ -32,12 +32,6 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 Es una aplicación diseñada con un enfoque mobile first, la cuál permite cifrar y descifrar mensajes cortos para enviar a tus amigos y resolver misterios.
 
-* Vista mobile
-
-* Vista Desktop
-
-
-
 
 ## 3. Investigación UX 🎯
 
@@ -46,15 +40,15 @@ Niños y/o adolescentes de 8 a 15 años que tengan acesso a un Smartphone, table
 
 #### ¿Como soluciona problemas y/o necesidades?
 
-Esta aplicación recibe mensajes cifrados y descifrados, con la opción de mandar mensajes cifrados o poder descifrar los mensajes que se reciban, solo debes tener conocimiento del número de desplazamientos utilizado para que sea posible conocer la clave. 
+* Esta aplicación tiene la opción de mandar mensajes cifrados o poder descifrar los mensajes que se reciban, solo debes tener conocimiento del número de desplazamientos utilizados para que sea posible leer o cifrar los mensajes. 
 
-Es una aplicación exclusiva de entretenimiento y diversión ya que ayuda a crear textos cifrados para un grupo de amigos que quiere que sus conversaciones sean secretas.
+* Es una aplicación exclusiva de entretenimiento y diversión.
 
-Utiliza este alfabeto simple (solamente mayúsculas y sin ñ).
+* Utiliza este alfabeto simple (solamente mayúsculas y sin ñ).
 
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-Permite blankspace y caracteres especiales.
+* Permite blankspace y caracteres especiales.
 
 #### Objetivos:
 
