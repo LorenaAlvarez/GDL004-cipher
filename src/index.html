@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -11,32 +12,40 @@
 
     <div class="interfaz" id="titulo"> 
      
-      <img id="logotipo" src="./imgs/detective.png" width"130px" height="130px">
+      <img id="logotipo" src="./imgs/detective.png" width="20%">
      
       <h1>CIFRADO CÉSAR</h1>
 
-      <h5>Con el método de cifrado Cesár ¡CONVIÉRTETE EN EL MEJOR DETECTIVE! 
-         Mandando mensajes súper secretos a tus amigos.</h5> 
+      <p>Con el método de cifrado Cesár <br> <strong>¡CONVIÉRTETE EN EL MEJOR DETECTIVE!</strong> <br>
+         Mandando mensajes súper secretos a tus amigos. <br> Sigue las instrucciones <strong>¡Y DIVIÉRTETE!</strong></p> 
+         <br><br><br>
          
-            <h4>Sigue las instrucciones ¡Y DIVIÉRTETE!</h4> 
-            <!-- <span class="circulo">1</span> -->
+         <button id="comenzar" class="btnComenzar">Comenzar</button> 
+        
+    
+      </div>  <br><br><br><br><br><br>
+
+
+    <div class="cipher" id="cipher"> 
+
              <label>Elige la acción:</label>
              <input type="radio" class="boton radio" name="accion" checked="checked" value="cifrar" />
              <label>Cifrar</label>
              <input type="radio" class="boton radio" name="accion" value="descifrar" />
              <label>Descifrar</label> 
+
+             <br><br>
       
-          <!-- <span class="circulo circuloEspacio">2</span>-->   
-          <h3 id="titulo_origen">Ingresa tu mensaje a cifrar:</h3> 
-          <textarea name="origen" id="origen" cols="30" 
+          <h3 id="titulo_origen">tu mensaje a cifrar:</h3> 
+          <textarea name="origen" id="origen" cols="100" 
           rows="5"placeholder="Máximo 180 caracteres." maxlength="100"></textarea> <br><br>
 
-         <!--<span class="circulo">3</span>--> 
+         
          <h3 id="tituloNumeroDesplazamientos">Número de desplazamientos:</h3>
          <input type="number" name="numeroDesplazamientos" id="numeroDesplazamientos" value="1">
          <button id="generar" class="button" >Generar</button> 
 
-         <!--<span class="circulo circuloEspacio">4</span>  --> 
+        
          <h3 id="titulo_destino">Tu mensaje cifrado:</h3>
            <textarea name="destino" id="destino" cols="30" 
            rows="5"></textarea>  <br><br>
@@ -44,8 +53,8 @@
          <button id="borrar" class="button" >Borrar</button>
          <button id="copiar" class="button" >Copiar</button>
 
-
-     </div>
+        </div>
+     
 
    <script src="cipher.js"></script>
    <script src="index.js"></script>

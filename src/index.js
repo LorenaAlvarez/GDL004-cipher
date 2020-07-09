@@ -1,3 +1,8 @@
+document.getElementById('comenzar').addEventListener('click', function() { 
+  document.getElementById('titulo').style.display = 'none';
+    document.getElementById('cipher').style.display = 'block'; 
+});
+
 // modificar el radio para que cambie de "cifrar" a "descifrar"
 // añadir listener a radio buttons
 let radios = document.getElementsByName('accion');
