@@ -5,10 +5,10 @@
 
 ## Índice
 
-* [1. Preámbulo](##1-preámbulo)
-* [2. Resumen del proyecto](##2-resumen-del-proyecto)
-* [3. Investigación UX](##3-investigación-ux)
-* [4. Prototipo Final](##4-prototipo-final)
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Investigación UX](#3-investigación-ux)
+* [4. Prototipo Final](#4-prototipo-final)
 
 ***
 
@@ -62,18 +62,12 @@ La interfaz permite al usuario:
 * Ver el resultado del mensaje descifrado.
 
 
-#### Prototipo papel:
+0011## 4. Prototipo Final 📲
 
-![prototipo-papel](https://raw.githubusercontent.com/LorenaAlvarez/GDL004-cipher/master/src/imgs/prototipo-papel.jpeg)
-
-#### Resumen feedback: 
-
-La aplicación al principio no contaba con un botón o apartado para que el usuario pudiera descifrar, así que se tuvo que modificar el diseño para agregarlo.
-
-
-
-## 4. Prototipo Final 📲
+* Vista Desktop
 
 ![prototipo-final](https://github.com/LorenaAlvarez/GDL004-cipher/blob/master/src/imgs/prototipo-final.PNG?raw=true)
 
 ![prototipo-final](https://github.com/LorenaAlvarez/GDL004-cipher/blob/master/src/imgs/prototipo-final-2.PNG?raw=true)
+
+* Vista Mobile
